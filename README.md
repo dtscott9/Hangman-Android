@@ -18,7 +18,7 @@ also uses the Kotlin standard library.
 # Useful Links
 As far as the tutorials found in these links go, I should clarify that I did not
 follow them step by step, but instead only integrated certain elements that I liked
-from them. For example, from the video of my last link, I really liked the idea of 
+from them. For example, from the video of the last link, I really liked the idea of 
 making the letters their own constraint layout, so I modeled my own letter choosing
 system after that. However, I did not follow the rest of that video and made everything
 else my own to the best of my ability. 
