@@ -45,7 +45,10 @@ class Terminal {
         //This while loop goes through the index of each letter in the word to guess and converts it to an underscore
         while (index < wordCount)
         {
+
             dashedWord.set(index, '_')
+            print(' ')
+
             index += 1
         }
         return dashedWord
