@@ -7,7 +7,7 @@ the player is given 26 different buttons on the screen that represent the alphab
 Once the player clicks any one of the buttons, that button disappears and the letter
 that the button represents is used as the player guess. 
 
-Demonstration Video: https://www.youtube.com/watch?v=wSzEAYxoGho
+Demonstration Video: https://www.youtube.com/watch?v=XQrwomgglGk
 
 # Development Environment
 I used Android Studio to develop this program because of it's integrated use of
