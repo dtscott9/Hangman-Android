@@ -34,4 +34,4 @@ else my own to the best of my ability.
 # Future Work
 1. Add sound effects and background music.
 2. Figure out how to integrate multiple screens.
-3. Create more space between the underscores so player so better tell which letters are separate. 
+3. Create more space between the underscores so player so better tell which letters are separate.

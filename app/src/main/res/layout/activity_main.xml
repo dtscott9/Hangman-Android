@@ -6,30 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/wordToGuess"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="_ _ _ _ _"
-        android:textSize="50sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.576" />
+        <TextView
+            android:id="@+id/wordToGuess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="_ _ _ _ _"
+            android:textSize="50sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/hangmanFigure"
-        android:layout_width="258dp"
-        android:layout_height="301dp"
-        app:layout_constraintBottom_toTopOf="@+id/wordToGuess"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.495"
-        app:srcCompat="@drawable/hangman1" />
+        <ImageView
+            android:id="@+id/hangmanFigure"
+            android:layout_width="258dp"
+            android:layout_height="301dp"
+            app:layout_constraintBottom_toTopOf="@+id/wordToGuess"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.195"
+            app:srcCompat="@drawable/hangman1" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/letters"
